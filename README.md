@@ -5,15 +5,18 @@ This is the implemtation code and proposed dataset(ASL-DVS) for the following pa
 
 MLA:
 
-    Bi, Y., Chadha, A., Abbas, A., Bourtsoulatze, E., & Andreopoulos, Y. (2019). Graph-based Spatial-temporal Feature Learning for Neuromorphic Vision Sensing. arXiv preprint arXiv:1910.03579.
+    Bi, Y., Chadha, A., Abbas, A., Bourtsoulatze, E., & Andreopoulos, Y. (2019). Graph-based Spatial-temporal Feature Learning for Neuromorphic Vision Sensing. IEEE Transactions on Image Processing, 9084-9008, 2020
     
 BibTex:
 
-    @article{bi2019graph,
-     title={Graph-based Spatial-temporal Feature Learning for Neuromorphic Vision Sensing},
+    @article{bi2020graph,
+     title={Graph-Based Spatio-Temporal Feature Learning for Neuromorphic Vision Sensing},
      author={Bi, Yin and Chadha, Aaron and Abbas, Alhabib and Bourtsoulatze, Eirina and Andreopoulos, Yiannis},
-     journal={arXiv preprint arXiv:1910.03579},
-     year={2019}
+     journal={IEEE Transactions on Image Processing},
+     volume={29},
+     pages={9084--9098},
+     year={2020},
+     publisher={IEEE}
      }
 
 
