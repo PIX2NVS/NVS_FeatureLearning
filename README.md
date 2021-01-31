@@ -24,3 +24,25 @@ BibTex:
 ## Dataset: UCF101-DVS, HMDB-DVS, ASLAN-DVS 
 We release largest neuromorphic human activity datasets including UCF101-DVS, HMDB-DVS and ASLAN-DVS, and make them available to the research community at the link: https://www.dropbox.com/sh/ie75dn246cacf6n/AACoU-_zkGOAwj51lSCM0JhGa?dl=0
 
+
+## Code Implementation
+### Requirements:
+     Python 2.7 
+     Pytorch 1.0.1.post2
+     pytorch_geometric 1.1.2
+     
+### Preparations:
+    Training graphs are saved in '../traingraph' folder.
+    Testing graphs are saved in '../testgraph' folder.
+    Each sample should contains feature of nodes, edge, pseudo adresses and label.
+    
+### Running examples:
+    cd code
+    python main.py   # running file for RGCNN+Plain 3D 
+    
+    #The results can be found in the 'Results' folder.
+
+
+
+## Contact 
+For any questions or bug reports, please contact Yin Bi at yin.bi.16@ucl.ac.uk .
