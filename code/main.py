@@ -84,8 +84,8 @@ train_batch_logger = Logger(os.path.join('./Results', 'train_batch.log'), ['epoc
 test_batch_logger = Logger(os.path.join('./Results', 'test_batch.log'), ['batch', 'loss', 'acc'])
 acc_logger = Logger(os.path.join('./Results', 'acc.log'), ['epoch', 'acc'])    
     
-train_filenames = glob.glob(os.path.join('..', 'traingraph', '*.mat'))
-val_filenames = glob.glob(os.path.join('..', 'testgraph', '*.mat'))
+train_filenames = glob.glob(os.path.join('./traingraph', '*.mat'))
+val_filenames = glob.glob(os.path.join('./testgraph', '*.mat'))
 random.shuffle(train_filenames)
 print(len(train_filenames))
 print(len(val_filenames))
