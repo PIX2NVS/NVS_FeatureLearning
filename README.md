@@ -1,7 +1,7 @@
 # Graph-based Spatial-temporal Feature Learning for Neuromorphic Vision Sensing
 
 ## Summary
-This is the implemtation code and proposed dataset(ASL-DVS) for the following paper. Please cite following paper if you use this code or dataset in your own work. The paper is available via: https://arxiv.org/abs/1910.03579.
+This is the implemtation code and proposed dataset(ASL-DVS) for the following paper. Please cite following paper if you use this code or dataset in your own work. The paper is available via: https://ieeexplore.ieee.org/abstract/document/9199543
 
 MLA:
 
